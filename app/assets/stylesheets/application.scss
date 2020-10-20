@@ -1,0 +1,13 @@
+@import "bootstrap/scss/bootstrap";
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+h1.navbar {
+  color: white !important;
+}
+#ul_index {
+  list-style: none;
+}
