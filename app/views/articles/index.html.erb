@@ -1,0 +1,12 @@
+<div class="banner">
+<h1>Wikinonimous</h1>
+<%= link_to 'New Article', new_article_path %>
+</div>
+<div class="container">
+<ul>
+<% @articles.each do |article| %>
+<li><%= link_to article.title, article %></li>
+<% end %>
+</ul>
+</div>
+
